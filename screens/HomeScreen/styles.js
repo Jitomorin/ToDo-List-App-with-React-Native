@@ -12,6 +12,7 @@ const styles = StyleSheet.create({
     fontSize: 50,
   },
   noTaskContainer: {
+    aspectRatio: 1.5,
     justifyContent: "center",
     alignItems: "center",
     opacity: 0.5,
