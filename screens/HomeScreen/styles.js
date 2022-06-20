@@ -1,10 +1,20 @@
 import React from "react"
 import { StyleSheet } from "react-native"
+import { colors } from "../../colors"
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: colors.PRIMARY,
+  },
+  noTasksText: {
+    color: colors.WHITE,
+    fontSize: 50,
+  },
+  noTaskContainer: {
+    justifyContent: "center",
+    alignItems: "center",
+    opacity: 0.5,
   },
   heading: {
     color: colors.WHITE,
