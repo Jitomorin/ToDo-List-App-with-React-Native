@@ -1,5 +1,13 @@
+<<<<<<< Updated upstream
 import React, { useState } from "react"
 import { StatusBar } from "expo-status-bar"
+=======
+import React, { Component } from "react"
+import { View, Text, StyleSheet, Button } from "react-native"
+import HomeScreen from "./screens/HomeScreen/HomeScreen"
+import { NavigationContainer } from "@react-navigation/native"
+import { createNativeStackNavigator } from "@react-navigation/native-stack"
+>>>>>>> Stashed changes
 import { colors } from "./colors"
 import { Keyboard, ScrollView, StyleSheet, Text, View } from "react-native"
 import TaskTile from "./components/TaskTile"
@@ -19,6 +27,7 @@ export default function App() {
   }
 
   return (
+<<<<<<< Updated upstream
     <View backgroundColor={colors.PRIMARY} style={styles.container}>
       <Text style={styles.heading}>To Do</Text>
       <TextInput addTask={addTask} />
@@ -38,6 +47,17 @@ export default function App() {
 
       <StatusBar style="auto" />
     </View>
+=======
+    <NavigationContainer>
+      <Stack.Navigator initialRouteName="Log in" screenOptions={{}}>
+        <Stack.Screen
+          options={{ headerShown: false }}
+          name="Home"
+          component={HomeScreen}
+        />
+      </Stack.Navigator>
+    </NavigationContainer>
+>>>>>>> Stashed changes
   )
 }
 const styles = StyleSheet.create({

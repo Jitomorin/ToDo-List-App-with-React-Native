@@ -56,19 +56,6 @@ const styles = StyleSheet.create({
   checkIcon: {
     marginRight: 10,
   },
-  indexContainer: {
-    backgroundColor: colors.PRIMARY_DARKERSHADE,
-    borderRadius: 12,
-    marginRight: 10,
-    alignItems: "center",
-    justifyContent: "center",
-    width: 50,
-    height: 50,
-  },
-  index: {
-    color: "#fff",
-    fontSize: 20,
-  },
   taskContainer: {
     backgroundColor: colors.PRIMARY_DARKERSHADE,
     borderRadius: 15,
