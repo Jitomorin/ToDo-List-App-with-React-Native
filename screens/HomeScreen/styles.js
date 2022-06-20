@@ -7,27 +7,15 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: colors.PRIMARY,
   },
-  imageContainer: {
-    /* width: 50,
-    height: 500, */
-    aspectRatio: 1.7,
-    alignItems: "center",
-    justifyContent: "center",
-
-    opacity: 0.3,
-  },
-  emptyTaskText: {
+  noTasksText: {
     color: colors.WHITE,
     fontSize: 50,
   },
-  image: {
-    flex: 1,
-
-    /* width: null,
-    height: null, */
-    resizeMode: "contain",
+  noTaskContainer: {
+    justifyContent: "center",
+    alignItems: "center",
+    opacity: 0.5,
   },
-
   heading: {
     color: colors.WHITE,
     fontSize: 20,
